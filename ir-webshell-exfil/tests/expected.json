@@ -1,0 +1,15 @@
+{
+  "attacker_ip": "198.51.100.23",
+  "initial_access_endpoint": "/api/search",
+  "compromised_account": "svc_backup",
+  "webshell_path": "/var/www/app/uploads/.cache/thumb.php",
+  "first_webshell_command_utc": "2026-10-14T02:18:16Z",
+  "exfil_domain": "upd-cdn-sync.net",
+  "exfiltrated_files": [
+    "etc/app/billing_api.key",
+    "home/ubuntu/.ssh/known_hosts",
+    "srv/exports/customers_2026Q3.csv",
+    "srv/exports/payroll_sept.xlsx"
+  ],
+  "persistence_file": "/etc/cron.d/apt-compat-check"
+}

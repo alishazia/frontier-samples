@@ -1,0 +1,24 @@
+schema_version = "1.3"
+
+[task]
+name = "samples/ir-webshell-exfil-forensics"
+description = "Incident response: reconstruct a web-app compromise (SQLi, account takeover, webshell, encrypted exfiltration, cron persistence) from logs and a filesystem snapshot."
+authors = []
+keywords = ["security", "incident-response", "forensics", "dfir", "web-security"]
+
+[metadata]
+difficulty = "hard"
+category = "cybersecurity-forensics"
+
+[agent]
+timeout_sec = 36000.0
+user = "agent"
+
+[verifier]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
